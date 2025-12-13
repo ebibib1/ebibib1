@@ -21,13 +21,18 @@
    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="50" height="50" />
 </div>
 
+<img src="assets/line.gif" width="100%" height="100">
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 <br><br>
 
 - 🌱 I’m currently learning **WebDev**
 
+<br>
+
 - 📫 How to reach me **febriyantonugraha4@gmail.com**
+
+<br>
 
 - ⚡ Fun fact **I think I'm funny lol**
 
@@ -72,10 +77,9 @@
 
 <br/>
 
+<img src="assets/line.gif" width="100%" height="100">
+<div align="center">
 
-
-
- <br><br>
 ```diff
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
 @@       o o                                           @@
