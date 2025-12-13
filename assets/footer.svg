@@ -1,0 +1,61 @@
+<svg viewBox="0 0 115 25" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg {
+  width: 100%;
+  position: fixed;
+  top: -1px;
+  overflow: visible;
+}
+
+.wave {
+  animation: waveMove 12s linear infinite;
+}
+
+#wave2 {
+  animation-duration: 20s;
+  opacity: 0.85;
+}
+
+#wave3 {
+  animation-duration: 14s;
+  opacity: 0.6;
+}
+
+@keyframes waveMove {
+  from { transform: translateX(0%); }
+  to   { transform: translateX(-100%); }
+}
+</style>
+
+<defs>
+  <!-- Animated blue → purple gradient -->
+  <linearGradient id="bluePurple" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#1e3a8a">
+      <animate attributeName="stop-color"
+        values="#1e3a8a;#3b82f6;#6366f1;#8b5cf6;#1e3a8a"
+        dur="10s" repeatCount="indefinite" />
+    </stop>
+    <stop offset="50%" stop-color="#3b82f6">
+      <animate attributeName="stop-color"
+        values="#3b82f6;#6366f1;#8b5cf6;#1e3a8a;#3b82f6"
+        dur="10s" repeatCount="indefinite" />
+    </stop>
+    <stop offset="100%" stop-color="#8b5cf6">
+      <animate attributeName="stop-color"
+        values="#8b5cf6;#1e3a8a;#3b82f6;#6366f1;#8b5cf6"
+        dur="10s" repeatCount="indefinite" />
+    </stop>
+  </linearGradient>
+
+  <path id="wave"
+    d="M 0,10
+       C 30,10 30,15 60,15
+       90,15 90,10 120,10
+       150,10 150,15 180,15
+       210,15 210,10 240,10
+       v 28 h -240 z" />
+</defs>
+
+<use id="wave2" class="wave" href="#wave" fill="url(#bluePurple)" />
+<use id="wave3" class="wave" y="-2" href="#wave" fill="url(#bluePurple)" />
+</svg>
