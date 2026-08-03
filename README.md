@@ -77,4 +77,3 @@
 
 <br/>
 <br>
-<img src="assets/footer.svg" width="100%">
