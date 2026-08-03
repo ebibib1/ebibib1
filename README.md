@@ -1,8 +1,3 @@
-
-<div align="center">
-  <img src="https://i.pinimg.com/736x/41/cd/3a/41cd3afdcc822ce21943649836be80dd.jpg" width="70%" style="margin-right:20px;" />
-</div>
-
 <h1 align="center">Hi I'm Febri</h1>
 <h3 align="center">A Highschool Programmer</h3>
 <p align="center">I am a vocational high school student with a strong interest in programming, developed through observing how computer technology has significantly transformed various aspects of daily life. These advancements motivated me to explore the field of software engineering from an early stage, and my interest has continued to grow over time. I am particularly enthusiastic about learning and experimenting with new technology stacks and applying them to build practical and innovative software projects.</p>
